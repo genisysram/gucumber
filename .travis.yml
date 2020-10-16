@@ -6,8 +6,8 @@ arch:
 sudo: false
 
 go:
-  - 1.4
-  - 1.13
+  - 1.4.x
+  - 1.13.x
 
 install: go get -v -t ./...
 script: make
